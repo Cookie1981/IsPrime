@@ -1,0 +1,10 @@
+FROM acraven/dotnet:build-api-1.0.1
+#FROM microsoft/aspnetcore:latest
+
+WORKDIR /app
+
+#RUN dotnet restore
+
+COPY /bin/Release/PublishOutput/ /app
+EXPOSE 9000
+CMD dotnet IsPrime.dll

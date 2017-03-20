@@ -1,0 +1,17 @@
+FROM acraven/dotnet:build-api-1.0.1
+#FROM microsoft/dotnet
+
+
+## mkdir /SourceCodeFolderWithInTheContainer
+
+WORKDIR /SourceCodeFolderWithInTheContainer
+
+ADD ./IsPrime  /SourceCodeFolderWithInTheContainer
+
+EXPOSE 9000
+
+RUN dotnet restore 
+RUN dotnet publish -c Release -o ./Published/
+RUN dotnet run -p ./project.json
+
+#CMD dotnet /IsPrime/IsPrime.dll

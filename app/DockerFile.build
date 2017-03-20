@@ -1,0 +1,5 @@
+FROM acraven/dotnet:build-api-1.0.1
+WORKDIR /build
+COPY . /build
+RUN dotnet-build-and-test.sh
+VOLUME /build/binaries
