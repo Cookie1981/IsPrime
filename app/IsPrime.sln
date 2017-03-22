@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IsPrime", "IsPrime\IsPrime.xproj", "{6E67780E-3904-40D3-9988-A1F33BC01722}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrime", "IsPrime\IsPrime.csproj", "{6E67780E-3904-40D3-9988-A1F33BC01722}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IsPrimeTests", "IsPrimeTests\IsPrimeTests.xproj", "{E84E3CC6-3ACE-4CFD-84F8-2E807318064B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPrimeTests", "IsPrimeTests\IsPrimeTests.csproj", "{E84E3CC6-3ACE-4CFD-84F8-2E807318064B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <AssemblyName>IsPrime</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>IsPrime</PackageId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
+    <PackageReference Include="Burble" Version="0.0.4-preview0023" />
+    <PackageReference Include="Bivouac" Version="0.0.2-preview0016" />
+  </ItemGroup>
+
+</Project>
